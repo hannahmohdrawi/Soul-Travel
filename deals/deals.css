@@ -2,26 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Playfair Display', Arial, Helvetica, sans-serif;
 }
 
 body{
     height: 100vh;
-    background-color:black;
-    background-image:url('images/japan.jpeg');
+    background-color:hsl(0, 0%, 0%);
+    background-image:url('../images/japan.jpeg');
     background-size: cover;
     background-position: center;
 }
 
 li{
     list-style: none;
-
 }
 
 a{
     text-decoration: none;
-    color: white;
-    font-family:'Courier New', Courier, monospace;
+    color: hsl(0, 0%, 0%);
+    font-family:'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
 
@@ -45,6 +44,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: hsl(0, 0%, 0%);
 }
 
 .navbar .logo a{
@@ -58,7 +58,7 @@ header{
 }
 
 .navbar .toggle-btn{
-    color: white;
+    color: hsl(0, 0%, 0%);
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
@@ -66,7 +66,7 @@ header{
 
 .action-btn{
     background-color: orange;
-    color: white;
+    color: hsl(0, 0%, 0%);
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -79,7 +79,7 @@ header{
 
 .action-btn:hover{
     scale: 1.5;
-    color:black;
+    color:hsl(0, 0%, 0%);
 }
 
 .action-btn:active{
@@ -159,6 +159,15 @@ section.main-text{
         left: 2rem;
         width: unset;
     }
-
 }
 
+/* Fonts */
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
