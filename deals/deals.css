@@ -1,0 +1,58 @@
+
+/* Doesnt currently work */
+section.main-text.hide{
+    display:hide;
+
+}
+
+section.main-text{
+    height: calc(100vh - 70px); /*70px is nav bar height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/*Stops here */
+
+
+.package-details{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/*
+.package-details div{
+    text-align:center;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+*/
+
+/* Card component - packages */
+
+.card img{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(128, 128, 128);
+    transition: 0.3s;
+    height: auto;
+    width: 350px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 26px 0 rgb(128, 128, 128);
+}
+
+.container{ 
+    padding: 2px 16px;
+}

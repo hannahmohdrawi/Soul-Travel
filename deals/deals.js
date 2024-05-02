@@ -1,15 +1,21 @@
+const mainText = document.querySelector('.main-text');
 
+hideMe.onclick = function(){
+    
+    mainText.classList.contains('hide');
 
-let hiddenMainText = function(){
-    document.querySelector('main-text') = style.visiblity = 'hidden';
 }
 
-let showMainText = function(){
+
+/*
+function showMainText(){
     document.querySelector('main-text') = style.visibility = 'visible';
 }
 
 
-let visibilityOptions = function(){
+
+
+function visibilityOptions(){
     if (onclick = true){
         return hiddenMainText;
     }
@@ -19,3 +25,4 @@ let visibilityOptions = function(){
 }
 
 
+*/
