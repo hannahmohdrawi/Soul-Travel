@@ -1,0 +1,13 @@
+
+.employee-container{
+    display: flex;
+    
+}
+
+.employee-card{
+    border: 2px solid black;
+    background-color: aliceblue;
+    width: 350px;
+    height: auto;
+    box-shadow: 2px 2px grey;
+}
