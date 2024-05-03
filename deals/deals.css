@@ -19,10 +19,12 @@ section.main-text{
 
 
 .package-details{
-    background-color: aliceblue;
+    background-color: rgb(135, 189, 237);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
 
 }
 
@@ -39,20 +41,52 @@ section.main-text{
 .card img{
     height: 200px;
     width: 300px;
+    margin: 25px 25px 0px 25px;;
     
 }
 
+.card h2, p{
+    text-align:center;
+    font-family: 'Rubik';
+}
+
+
+
 .card{
     box-shadow: 0 4px 8px 0 rgb(128, 128, 128);
-    transition: 0.3s;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
     height: auto;
     width: 350px;
+    background-color: rgb(210, 231, 250);
 }
 
 .card:hover{
-    box-shadow: 0 8px 26px 0 rgb(128, 128, 128);
+    box-shadow: 0 12px 32px 0 rgb(128, 128, 128);
+    transform: scale(1.2);
 }
 
 .container{ 
     padding: 2px 16px;
 }
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oxygen/v15/2sDcZG1Wl4LcnbuCNWgzaGW5Kb8VZA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
