@@ -42,7 +42,11 @@ section.main-text{
     height: 200px;
     width: 300px;
     margin: 25px 25px 0px 25px;;
-    
+
+}
+
+.card h2{
+    text-shadow: 2px 2px rgb(191, 190, 190);
 }
 
 .card h2, p{

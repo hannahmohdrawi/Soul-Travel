@@ -4,10 +4,26 @@
     
 }
 
-.employee-card{
-    border: 2px solid black;
-    background-color: aliceblue;
-    width: 350px;
+.employee-card img{
     height: auto;
-    box-shadow: 2px 2px grey;
+    width: 350px;
+}
+
+
+.employee-card{
+    box-shadow: 0 4px 8px 0 rgb(128, 128, 128);
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+    height: auto;
+    width: 350px;
+    background-color: rgb(210, 231, 250);
+}
+
+.employee-card:hover{
+    box-shadow: 0 12px 32px 0 rgb(128, 128, 128);
+    transform: scale(1.2);
+}
+
+.customer-form{
+    color:whitesmoke;
 }

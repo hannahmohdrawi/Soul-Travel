@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     background-color:hsl(0, 0%, 0%);
-    background-image:url('../images/japan.jpeg');
+    background-image:url('../images/background/japan.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +21,7 @@ a{
     text-decoration: none;
     color: hsl(0, 0%, 0%);
     font-family:'Playfair Display', Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 a:hover{
@@ -53,9 +53,17 @@ header{
     
 }
 
+.logo{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 50px 0 50px 0;
+    
+}
+
 .navbar .nav-links{
     display: flex;
     gap: 2.5rem;
+    text-shadow: 1px 1px rgb(161, 160, 160);
 }
 
 .navbar .toggle-btn{
@@ -136,6 +144,11 @@ section.main-text{
 .main-text h1{
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-shadow: 2px 2px black;
+}
+
+.main-text p{
+    text-shadow: 2px 2px black;
 }
 
 /* Responsive */
