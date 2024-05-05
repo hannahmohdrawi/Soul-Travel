@@ -1,11 +1,12 @@
 
-.employee-container{
+.employee-details{
     display: flex;
+    justify-content: space-between;
     
 }
 
 .employee-card img{
-    height: auto;
+    height: 550px;
     width: 350px;
 }
 
