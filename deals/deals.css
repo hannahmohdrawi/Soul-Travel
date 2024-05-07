@@ -17,15 +17,31 @@ section.main-text{
 
 /*Stops here */
 
+.customer-info{
+    background-image: url(../images/background/romania.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .package-details{
-    background-color: rgb(135, 189, 237);
+    
+    /*background-color: hsl(208, 74%, 73%, 0.2);*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 50px;
 
+}
+
+.customer-info h2{
+    text-align:center;
+    font-size: 4rem;
+    font-family: Rubik;
+    padding: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 /*
@@ -41,15 +57,16 @@ section.main-text{
 .card img{
     height: 200px;
     width: 300px;
-    margin: 25px 25px 0px 25px;;
+    margin: 25px 25px 0px 25px;
 
 }
 
-.card h2{
+.card .container h3{
     text-shadow: 2px 2px rgb(191, 190, 190);
+    font-size: 2rem;
 }
 
-.card h2, p{
+.card h3, p{
     text-align:center;
     font-family: 'Rubik';
 }
@@ -57,12 +74,13 @@ section.main-text{
 
 
 .card{
-    box-shadow: 0 4px 8px 0 rgb(128, 128, 128);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
     border-radius: 20px;
     transition: ease-in 0.3s;
-    height: auto;
+    height: 400;
     width: 350px;
-    background-color: rgb(210, 231, 250);
+    background-color: hsla(186, 80%, 55%, 0.5);
+    margin-top: 30px;
 }
 
 .card:hover{

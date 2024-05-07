@@ -1,13 +1,20 @@
 
 .employee-details{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+
     
 }
 
 .employee-card img{
-    height: 550px;
-    width: 350px;
+    height: 300px;
+    width: 200px;
+    border-radius: 80px 20px 80px 20px;
+    margin: 25px 20px 25px 20px;
+
+
 }
 
 
@@ -15,14 +22,22 @@
     box-shadow: 0 4px 8px 0 rgb(128, 128, 128);
     border-radius: 20px;
     transition: ease-in 0.3s;
-    height: auto;
-    width: 350px;
-    background-color: rgb(210, 231, 250);
+    height: 350px;
+    width: 500px;
+    background-color: rgb(251, 206, 170);
+    display: flex;
+    
+
 }
 
 .employee-card:hover{
     box-shadow: 0 12px 32px 0 rgb(128, 128, 128);
     transform: scale(1.2);
+}
+
+.employee-container-details{
+    text-align: center;
+    align-content: space-evenly;
 }
 
 .customer-form{
