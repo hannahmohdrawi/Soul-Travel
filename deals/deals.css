@@ -32,6 +32,8 @@ section.main-text{
     flex-wrap: wrap;
     flex-direction: row;
     padding: 50px;
+    background-color: hsl(0, 0%, 96%, 0.2);
+    padding: 20px;
 
 }
 
@@ -79,7 +81,7 @@ section.main-text{
     transition: ease-in 0.3s;
     height: 400;
     width: 350px;
-    background-color: hsla(186, 80%, 55%, 0.5);
+    background-color: hsla(62, 94%, 67%, 0.5);
     margin-top: 30px;
 }
 

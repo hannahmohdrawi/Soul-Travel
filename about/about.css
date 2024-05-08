@@ -1,0 +1,60 @@
+.company-container{
+    background-image: url(../images/background/italy.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.company-info{
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px 0 30px 0;
+    background-color: rgb(98, 97, 98, 0.9);
+    width: 50%;
+    height: 450px;
+    margin: 0 auto 100px auto;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    text-shadow: 3px 3px black;
+
+}
+
+.company-info img{
+    width: 50%;
+    height: 120px;
+    padding-bottom: 20px ;
+}
+
+
+h3{
+    font-size: 2rem;
+}
+
+.review-flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    
+}
+
+.review-card{
+    border: 2px solid black;
+    border-radius: 70px;
+    height: auto;
+    width: 400px;
+    background-image: linear-gradient(hsl(0, 0%, 100%, 0.7), hsl(0, 0%, 50%, 0.7), hsl(0, 0%, 0%, 0.7));
+    flex-basis: auto;
+    /*Transition not working yet */
+    transition: all margin-right 2s ease-in-out 0.5s,
+                opacity 400ms;
+
+    
+}
+
+.review-card img{
+    width: 100px;
+    height: auto;
+    border-radius: 90px;
+}
