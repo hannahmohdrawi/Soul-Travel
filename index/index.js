@@ -10,3 +10,10 @@ toggleBtn.onclick = function(){
     toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
 
 }
+
+function transition(){
+
+    document.getElementsByClassName("main-text").style.transition = "ease-out, 3s";
+
+};
+
