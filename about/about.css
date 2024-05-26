@@ -14,7 +14,7 @@
     margin: 30px 0 30px 0;
     background-color: rgb(98, 97, 98, 0.9);
     width: 50%;
-    height: 450px;
+    height: auto;
     margin: 0 auto 100px auto;
     border-radius: 50px 50px 50px 50px;
     color: white;
@@ -29,11 +29,23 @@
     padding-bottom: 20px ;
 }
 
+h2{
+    font-size: 1.5rem;
+}
 
-h3, p, ul{
+.company-info p{
+    font-size: 1.5rem;
+}
+
+
+h3, ul{
     font-size: 2rem;
     font-family: 'Oxygen';
     
+}
+
+.company-mission li{
+    color: white;
 }
 
 
@@ -41,6 +53,12 @@ h3, p, ul{
     display: flex;
     flex-flow: row wrap;
     align-content: space-evenly;
+    
+}
+
+.review-container h3{
+    color: white;
+    background-color: black;
     
 }
 
@@ -74,6 +92,10 @@ h3, p, ul{
 .review-card p{
     font-size: 15px;
 }
+
+
+
+/*Font families added */
 @font-face {
     font-family: 'Playfair Display';
     font-style: normal;
