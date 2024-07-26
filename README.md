@@ -1,8 +1,8 @@
 # Soul Travel
-A webpage designed for a made up travel agency. 
+A webpage designed for a travel agency. 
 
 ## Description
-This code was created as part of my personal web development to improve my HTML, CSS and JavaScript skills. </br>
+This code was created as part of my personal web development project to further improve my HTML, CSS and JavaScript skills. </br>
 The focus on this project was to create a webpage that has a navbar that responds responsively to the different screen sizes. 
 
 
